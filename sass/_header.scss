@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+      header {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+
+      .burger {
+        display: none;
+        position: fixed;
+        right: 5px;
+        padding: 5px;
+        top: 5px;
+        font-size: 44px;
+        opacity: 0.5;
+        color: white;
+        background: black;
+        z-index: 1;
+    }
+    
+    .burger:hover {
+        cursor: pointer;
+    
+    }
+
+    i.fa-bars, i.fa-times {
+        display: none;    
+    }
+
+    i.fa-times {
+      font-size: 48px;
+      width: 38px;
+    }
+
+    i.show {
+        display: block;
+    }
+
+   .container2 {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     height: 100%;
+   }
+
+   .share {
+    align-items: center;
+    padding: 40px 20px 40px 20px;
+    // padding: 60px 20px 40px 20px;
+    width: 30px;
+    height: 140px;
+    background-color: #000000ba;
+    background-color: #1877f2;
+   }
+
+   .fa-facebook-square, .fa-thumbs-up {
+    color: wheat;
+    transition: 1s;
+    height: 48px;
+    width: 48px;
+    margin-bottom: 40px;
+  }
+
+  .share a {
+    height: 48px;
+    width: 48px;
+  }
+
+    .share.show {
+      background-color: transparent;
+      transform: translate(-50%);
+      transition: 2s;
+    }
+
+    .share span.show {
+      color: transparent;;
+    }
+
+    .fab.show {
+      color: transparent;
+      transition: 1s;
+      transform: translate(-50%);
+    }
+
+    .far.show {
+      color: transparent;
+      transition: 1s;
+      transform: translate(-50%);
+    }
+    
+    
+      .ctx {
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        top: 50%;
+        left: 50%;
+      }
+    
+      h1 {
+        position: absolute;
+        top: 22%;
+        left: 7%;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        text-shadow: 0 0 6px #e81212; 
+      }
+
+      .info {
+        width: 200px;
+      }
+
+      // h1:nth-child(2) {
+      //   top: 35%;
+      //   font-size: 19px;
+      // }
+
+     
+
+     
+
+      .logo {
+        margin-left: 40px;
+        font-size: 30px;
+      }
+
+      .menu {
+        position: fixed;
+        background: rgba(91, 86, 86, 0.5);
+        height: 56px;
+        width: 100%;
+        top: 0;
+       
+      }
+
+      h5.heading {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        color:#e89e7a;
+        text-shadow: 0 0 6px #e81212;
+        cursor: pointer;
+        font-size: 28px;
+        line-height: 56px;
+
+      }
+
+   
+
+      h4 {
+        margin: auto;
+        width: 300px;
+      }
+  
+      .image {
+        background-attachment: fixed;
+        background-image: url(/image/IMG_bokeh.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .img.none  {
+        background: none;
+      }
+
+      .navbar {
+        display: none;
+        position: fixed;
+        background-color: black;
+        border-right: 2px solid white;
+        width: 100vw;
+        height: 100vh;
+        max-width: 90%;
+        -webkit-transition: .3s;
+        transition: .3s;
+        z-index: 999;
+      }
+
+      
+
+     h1 {
+      animation: h1 1.2s linear both; 
+    }
+
+
+      @keyframes h1 {
+        0% {
+          transform: scale(1) rotateZ(0);
+        }
+        50% {
+          transform: scale(2) rotateZ(180deg);
+        }
+        100% {
+          transform: scale(1) rotateZ(360deg);
+        }
+      }
+
+
+
+      @keyframes share {
+        0% {
+          transform: translate(-100%);
+        }
+
+        50% {
+          transform: translate(-50%);
+        }
+        100% {
+          transform: translate(0);
+        }
+      }
+      

@@ -1,0 +1,163 @@
+// Tablets
+@media (max-width: 992px) {
+
+  h1 {
+    left: 2%;
+  }
+
+  .img {
+    height: 420px;
+  }
+
+  .img1 {
+    height: 396px;
+    margin: 25px;
+  }
+
+  div.photo {
+    width: 738px;
+    // background-color: green;
+  }
+
+
+
+}
+
+//Landscape phones
+@media (max-width: 768px) {
+  h1 {
+    top: 82%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    min-width: 320px;
+  }
+
+  .img1 {
+    height: 275px;
+    margin: 25px;
+  }
+
+  div.photo {
+    width: 544px;
+    // background-color: green;
+  }
+}
+
+//Portrait phones
+@media (max-width: 576px ) {
+
+    .burger {
+        display: block;
+    }
+
+    h5.heading {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: 110px;
+        line-height: 110px;
+    }
+
+   ul {
+     display: block;
+     width: 100%;
+   }
+
+    ul:hover {
+     background-color: rgba(0, 0, 0, 0.473);
+   }
+
+    h1 {
+        top: 62%;
+        left: 7%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        min-width: 300px;
+      }
+
+      .headings {
+        background: rgba(0,0,0,0.5);
+        height: 100vh;
+        clip-path: circle(10px at 90% -10%);
+        transition: all 1s ease-out;
+       }
+       
+       .headings.show {  
+           clip-path: circle(1000px at 90% -10%);
+       }
+
+      nav.menu {
+        background: none;
+      }
+
+      div.photo {
+        width: 290px;
+      }
+
+      .img0, .img {
+        display: block;
+        margin: auto;
+        height: 320px;
+        padding: 0;
+        padding: 20px 0 10px 0;
+      }
+
+      .img0 {
+        height: 420px;
+      }
+
+      .img1 {
+        display: block;
+        height: 300px;
+        
+      }
+
+      i.fa-money-bill-alt {
+        margin-bottom: -20px;
+      }
+
+      .wrapper {
+        display: block;
+    }
+
+      .wrapper2 {
+        display: none;
+    }
+
+    .fa-facebook-square, .fa-thumbs-up {
+      font-size: 400px;
+    }
+
+    div.container2 {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .share {
+      // background-color: #000000ba;
+      // background-color: #00000052;
+      background-color: #1877f2;
+      height: 135px;
+    }
+
+    .fa-facebook-square {
+      margin-bottom: 40px;
+      
+    }
+
+}
+
+
+//Desktops
+@media (max-width: 1200px) {
+
+}
+
+//Desktops extra Large
+@media (min-width: 1200px) {
+
+}
+
+

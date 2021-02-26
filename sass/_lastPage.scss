@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 20px;
+}
+
+i.fa-file-signature, i.fa-money-bill-alt{
+    font-size: 24px;
+    width: 70px;
+    color: #d65050;
+    border: 1px solid #d65050;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    box-sizing: border-box;
+    float: left;
+    margin: -20px 20px 120px 20px;
+}
+
+h2 {
+    font-size: 20px;
+    max-width: 1400px;
+}
+
+h2.last {
+margin-bottom: 5px;
+font-size: 25px;
+}
+
+
+
+.item, .item2 {
+    margin: 45px;
+}
+
+span {
+    color: red;
+}
